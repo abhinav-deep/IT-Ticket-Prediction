@@ -1,45 +1,53 @@
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<div class="context">
-        <h1> Welcome to Helpdesk </h1>
-         
-        <h2> Create a ticket </h2>
+<!DOCTYPE html>
+<html>
 
-<div class="content">
-    <body>
-        <form action="/sub" method="POST">
-            <div class="row">
-                <div class="input-field col s6">
-                    <input id="title" type="text" name="subject" placeholder="Ticket subject">
-                </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s6">
-                    <input id="body" type="text" name="issue" placeholder="What's your issue?">
-                </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s6">
-                    <input id="submit" type="submit" value="SUBMIT">
-                </div>  
-            </div>
-        </form>
+    <head>
+        
+        <link rel="stylesheet" href="/static/style.css" /> 
+        <title> KIIT Helpdesk </title>
     
-    </body>
-      </div>
-</div>
+    </head>
 
+    <div class="context">
+        
+        <h1> Welcome to Helpdesk </h1>
+        <h2> <br> </h2>
+        <h2> Create a ticket </h2>
+        
+        <div class="content">
+            
+            <body>
+                
+                <form action="/sub" method="POST">
+                    <div class="row">
+                        
+                        <br>
+                        <input type="text" id="title" name="title" placeholder="Subject"  > 
+                        <br>
+                        <input type="text" id="body" name="body" placeholder="Description">
+                        <br>
+                        <input type="submit" id="submit" name="submit" placeholder="submit" aling="center">
+                    
+                    </div>
+                </form> 
+            
+            </body>
+        </div>
+    </div>
 
-<div class="area" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div >
+    <div class="area" >
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div> 
+
+</html>
